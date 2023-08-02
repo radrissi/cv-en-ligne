@@ -3,44 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/rect.css">
+    <link rel="stylesheet" href="Styles/text.css">
+    <link rel="stylesheet" href="Styles/image.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>CV Radia D</title>
 </head>
 
-<body>
-    <div>
+<body background="images/back.jpg">
+    
+    <div class="rect">
 
 <!--Titre--> 
-        <header><span>
+        <header>
         <h1> Bienvenu sur mon parcours !</h1>
-        </span> </header>
+        </header>
     </div>    
          
 <!--Texte d'introduction -->  
-    <div>
-            <article>
+    <div class="rect1">
                 <p>
                 Je vous remercie pour l'intérêt porté à mon profil. <br>
-                Je suis actuellement en reconversion professionnelle et à la recherche d'une <strong>alternance</strong>.<br>
-                Titulaire de deux Master, j'ai exclusivement travaillé dans le secteur informatique et au contact de nombreux professionnels du secteur.<br>
+                Je suis actuellement en <strong>reconversion professionnelle</strong> et à la recherche d'une <strong>alternance</strong>.<br>
+                Titulaire de deux Master, j'ai exclusivement travaillé dans le <strong>secteur informatique</strong> et au contact de nombreux professionnels du secteur.<br>
                 Forte de mes connaissances (acquises lors de mes expérience professionnelles) et de mon apétences en informatique, je souhaite evoluer vers un poste de <strong>Chef de projet IT</strong>.
                 </p>
-            </article>
         
     </div>
 
 <!--Compétences-->
-    <div>
+    <div class="rect2">
+        <img class="img1" src="Images/comp.png" alt="Compétences" >
         <h2>Connaissances</h2>
-        <p> <ul>Outils bureautique (Google Cloud, Office 365, Office) <br>
-            CMS (Wordpress, Joomla, 1&1) <br>
-            CRM (CRM Dynamics, Salesforce, Pipedrive) <br>
-            Outils de gestion (SharePoint, Boond Manager, Onetouch) <br>
-            Programmation (R, RScript, Python HTML) <br>
-            Cloud (AWS), Data Analyse, Administration système (Linux), Sécurité réseau, </ul></p>
-        
+        <p> <ul><li>Outils bureautique (Google Cloud, Office 365, Office)</li>
+            <li>CMS (Wordpress, Joomla, 1&1)</li>
+            <li>CRM (CRM Dynamics, Salesforce, Pipedrive)</li>
+            <li>Outils de gestion (SharePoint, Boond Manager, Onetouch)</li>
+            <li>Programmation (R, RScript, Python HTML)</li>
+            <li>Cloud (AWS), Data Analyse, Administration système (Linux), Sécurité réseau</li> </ul></p>
+    </div>
+            
+    <div class="rect3">
+        <img class="img2" src="Images/comp2.jpg" alt="Compétences">
         <h2>Compétences</h2>
         <p>Gestion de projet
             Management d´équipe <br>
@@ -56,7 +61,8 @@
 
 <!--Expérience pro--> 
 
-    <div >
+    <div class="rect4">
+        <img class="img3" src="Images/exp.png" alt="Compétences">
         <h2>Expériences professionnelles</h2>
         <p>
             CAMP MAIA MATER : Entreprenariat <br>
@@ -71,31 +77,30 @@
 
 <!--Parcour Scolaire --> 
 
-<div class="paragraphe">
-    <h2 class="xppro">Formations</h2>
-    <p class="paragraphe">
-    Master 2 Economie des TIC et Conseil en E-business<br>
-    Master 2 Spécialisation Négociation d’Affaires – MAGE <br>
-    Formation Cloud (AWS) - La Plateforme <br>
-    Formation Cloud Data Analyse - Open Classroom <br>
-    Google digital active Certification
-    Formation Marketing digital 
-     Wordpress
-     Facebook LiveMentor</p>
-</div>
+    <div class="rect5">
+        <img class="img4" src="Images/form.jpg" alt="Compétences">
+        <h2>Formations</h2>
+        <p>
+            Master 2 Economie des TIC et Conseil en E-business<br>
+            Master 2 Spécialisation Négociation d’Affaires – MAGE <br>
+            Formation Cloud (AWS) - La Plateforme <br>
+            Formation Cloud Data Analyse - Open Classroom <br>
+            Google digital active Certification
+            Formation Marketing digital 
+            Wordpress
+            Facebook LiveMentor</p>
+    </div>
 
 
-<div class="telecv">
+<div>
     <button>Télécharger mon CV en PDF</button>
 </div>
-<div>
-    <footer class="basdepage">
-        <a>
-            <img scr="Linkedin.png" alt="Linkedin" title="Linkedin">
-        </a>
-        <a>
-            <img scr="GitHub.png" alt="Git" title="Git">
-        </a>
+<div class="rect6">
+    <footer >
+        <a href="https://www.linkedin.com/in/radiadrissi?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCJ01OinOTrq%2FJZ93u1w80A%3D%3D" > <img class ="img6" src="Images/LinkedIn.png" alt="LinkedIn"></a>
+        <small><p>© 2023 Radia D</p></small>
+        <a href="https://github.com/radrissi"><img class ="img5" src="Images/GitHub.png" alt="GitHub"></a>
+        
     </footer>
 </div>
 </body>
